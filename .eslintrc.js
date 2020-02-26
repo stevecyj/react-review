@@ -27,7 +27,8 @@ module.exports = {
         },
     },
     rules: {
-        quotes: ['error', 'single'], //引號類型
-        semi: ['error', 'always'],
+        quotes: [1, 'single'], //引號類型
+        semi: [1, 'always'],
+        'react/prop-types': 0,
     },
 };

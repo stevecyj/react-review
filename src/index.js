@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Message from './Message';
+import { render } from 'react-dom';
+// import Message from './Message';
+import List from './List';
 
-ReactDOM.render(<Message />, document.getElementById('root'));
+render(<List />, document.getElementById('root'));

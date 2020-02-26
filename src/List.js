@@ -5,10 +5,10 @@ class List extends Component {
     render() {
         return (
             <ol>
-                <Item />
-                <Item />
-                <Item />
-                <Item />
+                <Item text='learn javascript' />
+                <Item text='learn react' />
+                <Item text='make money' />
+                <Item text='buy house' />
             </ol>
         );
     }
